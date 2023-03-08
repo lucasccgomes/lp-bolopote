@@ -1,0 +1,191 @@
+.traco{
+    margin: auto;
+    max-width: 190px;
+    min-height: -3px;
+    border-style: solid;
+    border: -15px;
+    border-color: var(--rosalogo);
+    margin-bottom: 40px;
+  }
+
+.catalogo {
+    width: 99%;;
+    margin: 0 auto;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.catalogo-center > h1{
+    margin-top: 30px;
+    text-align: center;
+    color: var(--marrom);
+    border-style: solid;
+    border: 0px;
+    border-bottom: 10px;
+    border-color: var(--rosalogo);
+    font-family: "Klasik regular";
+}
+
+.img-ca{
+    width: 362px;
+    height: 496px;
+    margin-left: 10px;
+    border-style: solid;
+    border: -8px;
+    border-color: var(--rosalogo);
+    border-radius: 10%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.img-pineapple{
+    background-image: url(../../assets/Catalogo/abacaxi1.png);
+    display: flex;
+}
+
+.img-pineapple:hover{
+    background-image: url(../../assets/Catalogo/abacaxi2.png);
+}
+
+.discr-card{
+    display: flex;
+    padding-top: 265px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.discr-card p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 18px;
+    color: #666263;
+    font-family: "Suave font";
+}
+
+
+
+.discr-card h1{
+    color: #ff6d99;
+    font-family: "Klasik regular";
+    font-size: 3.2em;
+}
+
+.img-strawberry{
+    background-image: url(../../assets/Catalogo/morango1.png);
+}
+
+.img-strawberry:hover{
+    background-image: url(../../assets/Catalogo/morango2.png);
+}
+
+.img-strawberry p{
+    color: rgb(226, 219, 219) !important;
+}
+
+.img-brigadier{
+    background-image: url(../../assets/Catalogo/brigadeiro1.png);
+}
+
+.img-brigadier:hover{
+    background-image: url(../../assets/Catalogo/brigadeiro2.png);
+}
+
+.img-child{
+    background-image: url(../../assets/Catalogo/ninho1.png);
+}
+
+.img-child:hover{
+    background-image: url(../../assets/Catalogo/ninho2.png);
+}
+
+.img-child h1{
+    color: white !important;
+}
+
+.img-child p{
+    color: rgb(224, 219, 219) !important;
+}
+
+.img-prestige{
+    background-image: url(../../assets/Catalogo/prestigio1.png);
+}
+
+.img-prestige:hover{
+    background-image: url(../../assets/Catalogo/prestigio2.png);
+}
+
+.inner {
+    display: flex;
+
+}
+
+.item-img {
+    display: flex;
+    min-height: 200px;
+    min-width: 400px;
+    padding: 14px;
+}
+
+
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width:870px) {
+
+    .discr-card{
+        display: flex;
+        padding-top: 190px;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    
+    .discr-card p{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 0.8.5em;
+        line-height: 18px;
+        color: #666263;
+    }
+    
+    
+    
+    .discr-card h1{
+        color: #ff6d99;
+        font-family: "Klasik regular";
+        font-size: 2.5em;
+    }
+
+    .img-ca{
+        max-width: 388px;
+        max-height: 445px !important;
+    }
+
+    .item-img {
+        min-height: 451px;
+        min-width: 363px !important;
+
+    }
+
+    .catalogo-center .traco{
+        margin-bottom: 18px;
+    }
+
+    .catalogo-center h1{
+        margin-top: 50px;
+    }
+}

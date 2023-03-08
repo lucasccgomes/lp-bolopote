@@ -1,0 +1,265 @@
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+}
+
+.container-form > .traco{
+    min-width: 330px;
+    margin-bottom: 65px;
+    margin: auto;
+    max-width: 190px;
+    min-height: -3px;
+    border-style: solid;
+    border: -15px;
+    border-color: var(--rosalogo);
+    margin-bottom: 40px;
+  
+}
+
+.container-form h1 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--marrom);
+    font-family: "Klasik regular";
+}
+
+.form-pt-1 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0.5rem;
+    justify-items: center;
+}
+
+.form-pt-2 {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 0.5rem;
+}
+
+#delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+#delivery > p {
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    margin-top: 17px;
+}
+
+.form-pt-2 .form-check-delivery > #retirar{
+    margin-left: 10px;
+}
+
+.containerObs{
+    min-width: 100%;
+}
+
+.selectContainer, .containerObs, .containerInput{
+    background-color: var(--rosaterc);
+    padding: 8px;
+    margin-bottom: 8px;
+    display: flex;
+   
+}
+
+.containerInput, .selectContainer {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.containerInput input {
+    min-width: 100%;
+    min-height: 37px;
+}
+
+.containerInput input::placeholder{
+    color: #807c7c;
+}
+
+.quantidade{
+    background-color: var(--rosaterc);
+    padding-left: 3px;
+    padding-right: 3px;
+    display: flex;
+    max-height: 30px;
+    max-width: 40px;
+    border-radius: 100%;
+}
+
+.quantidade > input {
+min-width: 50%;
+border-radius: 50%;
+text-align: center;
+}
+
+.qtd-flavor{
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+    grid-template-columns: repeat(2, 2fr);
+    justify-content: end;
+}
+
+.align-flavor{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.align-flavor label {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-family: "Klasik regular";
+}
+
+
+.selectContainer select{
+   min-width: 100%;
+}
+
+.containerObs textarea{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #807c7c;
+}
+
+selct{
+    color: #807c7c;
+}
+
+input , select{
+    min-height: 30px;
+    max-width: 220px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    font-family: "loja";
+    font-size: 1.5em;
+    color: #383737;
+    
+}
+
+#observacao {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.form-group > p {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+label{
+    margin: auto;
+}
+
+.delivery {
+    font-size:0.8em;
+}
+
+.delivery-fields {
+    margin-left: -86px;
+    margin-top: 0px;
+}
+
+.containerInput-adress{
+    max-width: 140px;
+}
+
+.containerInput-adressnumber{
+    min-width: 80px;
+    margin-left: 5px;
+}
+
+.opt_ct_fidelidade, .delivery {
+    display: flex;
+    flex-direction: row;
+    max-height: 21px;
+    margin-bottom: 3px;
+}
+
+.form-check, .form-check-delivery{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.totalmoney {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalmoney h1{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.totalmoney p{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.bt-pedido{
+    min-width: 100%;
+    border: 0;
+    background-color: var(--marrom);
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 50px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .align-check{
+        display: flex;
+    }
+
+    #delivery{
+        margin-right: 30px;
+    }
+
+       .delivery-fields {
+            margin: 0px;
+            align-items: center;
+            flex-direction: column;
+            max-width: 100%;
+            min-width: 100%;
+        }
+
+        .containerInput, .selectContainer {
+            max-width: 100%;
+            min-width: 100%;
+        }
+
+        .form-pt-1{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }

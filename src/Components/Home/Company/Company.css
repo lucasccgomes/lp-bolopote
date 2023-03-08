@@ -1,0 +1,220 @@
+
+  .position-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+
+
+.company-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    
+}
+
+.company-details{
+    align-items: center;
+}
+
+.company-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.company-details-name{
+    font-size: 24px;
+    font-family: "Poppins Semibold";
+}
+
+.company-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    position: relative;
+}
+
+
+.company-details-role .presentation-slogan{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    position: absolute;
+  width: 132%;
+  left: 0;
+  margin-left: -58px;
+  margin-right: auto;
+  text-align: center;
+    
+}
+
+.primary-text{
+    font-size: 2em;
+    color: var(--whith)
+}
+
+.hightlighted-text{
+    color: #5a2c16;
+}
+
+.company-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+    display: none;
+}
+
+.company-options .highlighted-btn{
+    margin: 0 0 0 28px;
+    background-color: rgb(255, 220, 242);
+    color: #111;
+
+}
+
+.company-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 576px;
+    margin: 27px 0px 0px 103px;
+    
+}
+
+.company-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url(../../../assets/Home/logo-s-fundo-r.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.company-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+
+.colz .colz-icon i{
+    color: white;
+    padding: 18px;
+    padding-left: 0px;
+    font-size: 2rem;
+
+}
+
+.colz .colz-icon .fa-twitter{
+    padding-right: 0px;
+}
+
+.animation-container {
+    height: 70px;
+  }
+
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+
+@media screen and (max-width:1134px) {
+    .company-picture{
+        margin: 0 0px 0 80px;
+    }
+    .company-details-name{
+        font-size: 20px;
+    }
+    .company-details-role .primary-text{
+        font-size: 12px;
+    }
+
+    .company-options .btn{
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+
+}
+
+@media screen and (max-width: 1128px) {
+    .company-picture{
+        height: 300px;
+        width: 400px;
+        margin: 0 0 0 4px;
+    }
+
+    .company-details-role .presentation-slogan {
+        width: 110%;
+        left: -20px;
+       margin: auto;
+        
+    }
+}
+
+@media screen and (max-width:810px) {
+
+    .company-picture{
+        margin: -20px 0px 0px 0px !important;
+
+    }
+    .company-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0 ;
+
+    }
+
+    .company-options{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .company-details{
+        margin: 0px 0 0 ;
+    }
+
+    .company-options .highlighted-btn{
+        margin: 0 !important;
+    }
+
+    .company-options, .company-details-role{
+        text-align: center;
+
+    }
+
+    .btn {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .company-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+
+    .company-details-role .presentation-slogan{
+        width: 90%;
+        margin-left: 12px;
+        font-size: 1.3rem;
+    }
+
+    .animation-container {
+        display: flex;
+      }
+
+    .company-details{
+        width: 90%;
+    }
+
+    .primary-btn{
+        margin-bottom: 8px;
+    }
+
+    
+}
+

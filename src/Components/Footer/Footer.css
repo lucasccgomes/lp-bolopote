@@ -1,0 +1,53 @@
+footer {
+    text-align: center;
+    max-height: 700px;
+    min-height: 300px;
+    margin: auto;
+    padding-top: 100px;
+    background-color: var(--rosasec);
+}
+
+.bt-top{
+    text-align: center;
+}
+
+.set-bt-top{
+    color: var(--rosalogo);
+    border-style: solid;
+    border-color: var(--marrom);
+    padding: 8px;
+    border-radius: 100%;
+    font-size: 60px;
+
+}
+
+#copyright {
+    margin-top: 68px;
+    text-align: center;
+}
+
+#copyright #contato {
+    color: var(--cor1);
+    text-align: center;
+    margin: auto;
+    max-width: 450px;
+  
+    
+}
+
+#copyright #contato a {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.rede img:hover {
+    cursor: pointer;
+    transform: rotateX(30deg);
+}
+
+.github img {
+    margin-left: 10px;
+    margin-right: 10px;
+}

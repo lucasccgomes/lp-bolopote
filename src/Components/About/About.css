@@ -1,0 +1,160 @@
+* {
+    line-height: 20px;
+}
+
+.traco {
+    margin: auto;
+    max-width: 190px;
+    min-height: -3px;
+    border-style: solid;
+    border: -15px;
+    border-color: var(--rosalogo);
+    margin-bottom: 40px;
+}
+
+#about {
+    text-align: center;
+    background-color: var(--rosasec);
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#about h1 {
+    margin-top: 39px;
+    text-align: center;
+    color: var(--marrom);
+    border-style: solid;
+    border: 0px;
+    border-bottom: 10px;
+    border-color: var(--rosalogo);
+    font-family: "Klasik regular";
+}
+
+
+.about-container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about-me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background-image: linear-gradient(40deg,
+            var(--rosalogo) 0%,
+            var(--marrom) 45%,
+            var(--rosalogo) 100%);
+    display: grid;
+    place-items: center;
+
+}
+
+.about-me-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: transform 0.5s ease-in-out;
+    margin: 0;
+}
+
+.about-me-image img {
+    max-width: 120%;
+}
+
+.about-me-image:hover {
+    transform: rotate(0);
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+
+}
+
+.about-card {
+    background-color: rgba(96, 56, 63, 0.607);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.1s;
+
+}
+
+.about-card:hover {
+    background: var(--marrom);
+    border-color: var(--marrom);
+    cursor: default;
+
+
+}
+
+.about-icon {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgba(218, 241, 154, 0.692);
+}
+
+.about-card h5 {
+    font-size: 1.3rem;
+    color: var(--marromsec);
+    font-weight: 800;
+    font-family: "loja";
+}
+
+.about-card small {
+    font-size: 1rem;
+    color: white;
+    font-family: "loja";
+
+}
+
+.about-content p {
+    margin: 2rem 0 2.6rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+
+    }
+
+    .about-content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .about-me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p {
+        margin: 1.5rem 0;
+    }
+}

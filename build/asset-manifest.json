@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.0da1caf0.css",
-    "main.js": "./static/js/main.17df1932.js",
+    "main.css": "./static/css/main.68881d83.css",
+    "main.js": "./static/js/main.deaabbf1.js",
     "static/js/787.e38c8483.chunk.js": "./static/js/787.e38c8483.chunk.js",
     "static/media/logo_cartoon_art_illustration.jpg": "./static/media/logo_cartoon_art_illustration.7668f04e08ba9b555410.jpg",
     "static/media/Klasik Rough.otf": "./static/media/Klasik Rough.330c822d47d4f7020e60.otf",
@@ -22,12 +22,12 @@
     "static/media/Klasik Shadow.otf": "./static/media/Klasik Shadow.c43367ea182503cf76ae.otf",
     "static/media/Klasik Regular.otf": "./static/media/Klasik Regular.d469c0cca4cabf12051e.otf",
     "index.html": "./index.html",
-    "main.0da1caf0.css.map": "./static/css/main.0da1caf0.css.map",
-    "main.17df1932.js.map": "./static/js/main.17df1932.js.map",
+    "main.68881d83.css.map": "./static/css/main.68881d83.css.map",
+    "main.deaabbf1.js.map": "./static/js/main.deaabbf1.js.map",
     "787.e38c8483.chunk.js.map": "./static/js/787.e38c8483.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0da1caf0.css",
-    "static/js/main.17df1932.js"
+    "static/css/main.68881d83.css",
+    "static/js/main.deaabbf1.js"
   ]
 }

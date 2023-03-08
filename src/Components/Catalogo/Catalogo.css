@@ -1,59 +1,60 @@
-.traco{
+.traco {
     margin: auto;
+    border: -15px;
     max-width: 190px;
     min-height: -3px;
     border-style: solid;
-    border: -15px;
     border-color: var(--rosalogo);
     margin-bottom: 40px;
-  }
+}
 
 .catalogo {
-    width: 99%;;
+    display: flex;
+    width: 99%;
+    ;
     margin: 0 auto;
     min-height: 50vh;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.catalogo-center > h1{
-    margin-top: 30px;
-    text-align: center;
-    color: var(--marrom);
-    border-style: solid;
+.catalogo-center>h1 {
     border: 0px;
+    color: var(--marrom);
+    text-align: center;
+    margin-top: 30px;
+    border-style: solid;
     border-bottom: 10px;
     border-color: var(--rosalogo);
     font-family: "Klasik regular";
 }
 
-.img-ca{
+.img-ca {
     width: 362px;
     height: 496px;
+    border: -8px;
+    border-radius: 10%;
     margin-left: 10px;
     border-style: solid;
-    border: -8px;
     border-color: var(--rosalogo);
-    border-radius: 10%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-   
-   
+
+
 }
 
-.img-pineapple{
-    background-image: url(../../assets/Catalogo/abacaxi1.png);
+.img-pineapple {
     display: flex;
+    background-image: url(../../assets/Catalogo/abacaxi1.png);
 }
 
-.img-pineapple:hover{
+.img-pineapple:hover {
     background-image: url(../../assets/Catalogo/abacaxi2.png);
 }
 
-.discr-card{
+.discr-card {
     display: flex;
     padding-top: 265px;
     flex-direction: column;
@@ -62,64 +63,64 @@
     padding-right: 22px;
 }
 
-.discr-card p{
-    margin-top: 10px;
-    text-align: center;
-    font-size: 0.9em;
-    line-height: 18px;
+.discr-card p {
     color: #666263;
+    text-align: center;
+    line-height: 18px;
+    margin-top: 10px;
+    font-size: 0.9em;
     font-family: "Suave font";
 }
 
 
 
-.discr-card h1{
+.discr-card h1 {
     color: #ff6d99;
     font-family: "Klasik regular";
     font-size: 3.2em;
 }
 
-.img-strawberry{
+.img-strawberry {
     background-image: url(../../assets/Catalogo/morango1.png);
 }
 
-.img-strawberry:hover{
+.img-strawberry:hover {
     background-image: url(../../assets/Catalogo/morango2.png);
 }
 
-.img-strawberry p{
+.img-strawberry p {
     color: rgb(226, 219, 219) !important;
 }
 
-.img-brigadier{
+.img-brigadier {
     background-image: url(../../assets/Catalogo/brigadeiro1.png);
 }
 
-.img-brigadier:hover{
+.img-brigadier:hover {
     background-image: url(../../assets/Catalogo/brigadeiro2.png);
 }
 
-.img-child{
+.img-child {
     background-image: url(../../assets/Catalogo/ninho1.png);
 }
 
-.img-child:hover{
+.img-child:hover {
     background-image: url(../../assets/Catalogo/ninho2.png);
 }
 
-.img-child h1{
+.img-child h1 {
     color: white !important;
 }
 
-.img-child p{
+.img-child p {
     color: rgb(224, 219, 219) !important;
 }
 
-.img-prestige{
+.img-prestige {
     background-image: url(../../assets/Catalogo/prestigio1.png);
 }
 
-.img-prestige:hover{
+.img-prestige:hover {
     background-image: url(../../assets/Catalogo/prestigio2.png);
 }
 
@@ -130,22 +131,22 @@
 
 .item-img {
     display: flex;
+    padding: 14px;
     min-height: 200px;
     min-width: 400px;
-    padding: 14px;
 }
 
 
 
 .carousel {
-    cursor: grab;
     overflow: hidden;
+    cursor: grab;
     margin-bottom: 80px;
 }
 
 @media screen and (max-width:870px) {
 
-    .discr-card{
+    .discr-card {
         display: flex;
         padding-top: 190px;
         flex-direction: column;
@@ -153,24 +154,24 @@
         padding-left: 33px;
         padding-right: 33px;
     }
-    
-    .discr-card p{
-        margin-top: -5px;
-        text-align: center;
-        font-size: 0.8.5em;
-        line-height: 18px;
+
+    .discr-card p {
         color: #666263;
+        text-align: center;
+        line-height: 18px;
+        margin-top: -5px;
+        font-size: 0.8.5em;
     }
-    
-    
-    
-    .discr-card h1{
+
+
+
+    .discr-card h1 {
         color: #ff6d99;
         font-family: "Klasik regular";
         font-size: 2.5em;
     }
 
-    .img-ca{
+    .img-ca {
         max-width: 388px;
         max-height: 445px !important;
     }
@@ -181,11 +182,11 @@
 
     }
 
-    .catalogo-center .traco{
+    .catalogo-center .traco {
         margin-bottom: 18px;
     }
 
-    .catalogo-center h1{
+    .catalogo-center h1 {
         margin-top: 50px;
     }
 }

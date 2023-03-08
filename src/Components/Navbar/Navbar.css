@@ -1,8 +1,8 @@
 
 .nav-bg{
-    background-color: var( --rosasec );
-    border: 0;
     margin: -0.0px;
+    border: 0;
+    background-color: var( --rosasec );
 }
 
 .logo-icon{
@@ -12,38 +12,36 @@
 
 nav{
     display: flex;
+    padding: 20px 80px;
+    border-radius: 0px 0px 60px 60px;
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    padding: 20px 80px;
-    border-style: solid;
-    border-radius: 0px 0px 60px 60px;
-    border: 10px;
 }
 
 #navbar {
     display: flex;
+    margin: 0px;
     align-items: center;
     justify-content: center;
-    margin: 0px;
 
 }
 
 
 
 #navbar li {
-    list-style: none;
-    padding: 0 10px;
     position: relative;
+    padding: 0 10px;
+    list-style: none;
 
 }
 
 #navbar li a {
+    color: #552610;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
     font-size: 1.3rem;
     font-weight: 600;
-    color: #552610;
-    transition: 0.3s ease-in-out;
 }
 
 #navbar li a:hover, 
@@ -61,22 +59,22 @@ nav{
 
 @media screen and (max-width:870px){
     #navbar {
-        margin: 0;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
         position: fixed;
         top: 90px;
         right: -300px;
+        z-index: 1;
         width: 196px;
         height: 300px;
-        background: white;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 35px 0 0 10px;
-        transition: 0.3s ease-in-out;    
+        margin: 0;
+        padding: 35px 0 0 10px;    
         border-radius: 30px 0px 0 30px;
-        z-index: 1;
+        background: white;
+        transition: 0.3s ease-in-out;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     }
 
     #navbar .primary-btn{
@@ -97,8 +95,8 @@ nav{
     }
 
     #mobile i{
-        font-size: 24px;
         cursor: pointer;
+        font-size: 24px;
 
     }
     

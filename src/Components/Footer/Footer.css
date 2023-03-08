@@ -1,8 +1,8 @@
 footer {
+    margin: auto;
     text-align: center;
     max-height: 700px;
     min-height: 300px;
-    margin: auto;
     padding-top: 100px;
     background-color: var(--rosasec);
 }
@@ -12,34 +12,34 @@ footer {
 }
 
 .set-bt-top{
+    padding: 8px;
+    border-radius: 100%;
     color: var(--rosalogo);
     border-style: solid;
     border-color: var(--marrom);
-    padding: 8px;
-    border-radius: 100%;
     font-size: 60px;
 
 }
 
 #copyright {
-    margin-top: 68px;
     text-align: center;
+    margin-top: 68px;
 }
 
 #copyright #contato {
+    margin: auto;
     color: var(--cor1);
     text-align: center;
-    margin: auto;
     max-width: 450px;
   
     
 }
 
 #copyright #contato a {
+    cursor: pointer;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    cursor: pointer;
 }
 
 .rede img:hover {

@@ -25,9 +25,9 @@ class Navbar extends Component {
     handleClickOutside = (event) => {
         if (
             this.navbarRef.current &&
-      !this.navbarRef.current.contains(event.target) &&
-      this.mobileRef.current &&
-      !this.mobileRef.current.contains(event.target)
+            !this.navbarRef.current.contains(event.target) &&
+            this.mobileRef.current &&
+            !this.mobileRef.current.contains(event.target)
         ) {
             this.setState({ clicked: false })
         }
@@ -61,7 +61,7 @@ class Navbar extends Component {
                             </li>
                             <li>
                                 <a className="active" href="#" onClick={this.handleClick}>
-                  HOME
+                                    HOME
                                 </a>
                             </li>
                             <li>

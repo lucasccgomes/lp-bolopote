@@ -9,10 +9,10 @@
 
 .company-container{
     display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
     height: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     min-height: fit-content;
     
 }
@@ -23,8 +23,8 @@
 
 .company-parent{
     display: flex;
-    align-items: center;
     color: aliceblue;
+    align-items: center;
 
 }
 
@@ -35,27 +35,27 @@
 
 .company-details-role{
     display: flex;
-    flex-direction: column;
-    margin: 14px 0 24px 0;
     position: relative;
+    margin: 14px 0 24px 0;
+    flex-direction: column;
 }
 
 
 .company-details-role .presentation-slogan{
+    position: absolute;
+  left: 0;
+  width: 132%;
+  text-align: center;
     font-size: 1.5rem;
     font-family: sans-serif;
-    position: absolute;
-  width: 132%;
-  left: 0;
   margin-left: -58px;
   margin-right: auto;
-  text-align: center;
     
 }
 
 .primary-text{
-    font-size: 2em;
-    color: var(--whith)
+    color: var(--whith);
+    font-size: 2em
 }
 
 .hightlighted-text{
@@ -63,32 +63,32 @@
 }
 
 .company-role-tagline{
-    font-size: 19px;
-    margin: 5px 0 0 0;
-    font-family: "Poppins Light";
     display: none;
+    margin: 5px 0 0 0;
+    font-size: 19px;
+    font-family: "Poppins Light";
 }
 
 .company-options .highlighted-btn{
     margin: 0 0 0 28px;
-    background-color: rgb(255, 220, 242);
     color: #111;
+    background-color: rgb(255, 220, 242);
 
 }
 
 .company-picture{
     display: flex;
+    width: 576px;
+    height: 350px;
+    margin: 27px 0px 0px 103px;
     align-items: center;
     justify-content: center;
-    height: 350px;
-    width: 576px;
-    margin: 27px 0px 0px 103px;
     
 }
 
 .company-picture-background{
-    height: 92%;
     width: 92%;
+    height: 92%;
     background-image: url(../../../assets/Home/logo-s-fundo-r.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,13 +96,13 @@
 }
 
 .company-picture-background:hover{
-    transform: scale(1.07);
     transition: 1s ease-out;
+    transform: scale(1.07);
 }
 
 .colz .colz-icon i{
-    color: white;
     padding: 18px;
+    color: white;
     padding-left: 0px;
     font-size: 2rem;
 
@@ -132,23 +132,23 @@
     }
 
     .company-options .btn{
+        z-index: 700;
         width: 120px;
         padding: 11px 0;
-        z-index: 700;
     }
 
 }
 
 @media screen and (max-width: 1128px) {
     .company-picture{
-        height: 300px;
         width: 400px;
+        height: 300px;
         margin: 0 0 0 4px;
     }
 
     .company-details-role .presentation-slogan {
-        width: 110%;
         left: -20px;
+        width: 110%;
        margin: auto;
         
     }
@@ -161,8 +161,8 @@
 
     }
     .company-parent{
-        flex-direction: column-reverse;
         margin: 40px 0 0 0 ;
+        flex-direction: column-reverse;
 
     }
 
@@ -192,8 +192,8 @@
 
 @media screen and (max-width:375px) {
     .company-picture{
-        height: 275px;
         width: 275px;
+        height: 275px;
         margin-top: -90px;
     }
 

@@ -8,39 +8,39 @@
 }
 
 .container-form > .traco{
+    margin: auto;
+    border: -15px;
     min-width: 330px;
     margin-bottom: 65px;
-    margin: auto;
     max-width: 190px;
     min-height: -3px;
     border-style: solid;
-    border: -15px;
     border-color: var(--rosalogo);
     margin-bottom: 40px;
   
 }
 
 .container-form h1 {
-    margin-bottom: 10px;
-    text-align: center;
     color: var(--marrom);
+    text-align: center;
+    margin-bottom: 10px;
     font-family: "Klasik regular";
 }
 
 .form-pt-1 {
+    display: grid;
     align-items: center;
     justify-content: center;
-    display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 0.5rem;
     justify-items: center;
 }
 
 .form-pt-2 {
+    display: grid;
     align-items: center;
     justify-content: center;
     justify-items: center;
-    display: grid;
     grid-template-columns: repeat(1, 2fr);
     gap: 0.5rem;
 }
@@ -68,10 +68,10 @@
 }
 
 .selectContainer, .containerObs, .containerInput{
-    background-color: var(--rosaterc);
-    padding: 8px;
-    margin-bottom: 8px;
     display: flex;
+    padding: 8px;
+    background-color: var(--rosaterc);
+    margin-bottom: 8px;
    
 }
 
@@ -90,19 +90,19 @@
 }
 
 .quantidade{
+    display: flex;
+    border-radius: 100%;
     background-color: var(--rosaterc);
     padding-left: 3px;
     padding-right: 3px;
-    display: flex;
     max-height: 30px;
     max-width: 40px;
-    border-radius: 100%;
 }
 
 .quantidade > input {
-min-width: 50%;
 border-radius: 50%;
 text-align: center;
+min-width: 50%;
 }
 
 .qtd-flavor{
@@ -131,10 +131,10 @@ text-align: center;
 }
 
 .containerObs textarea{
-    background: transparent;
     border: 0;
-    outline: none;
+    background: transparent;
     color: #807c7c;
+    outline: none;
 }
 
 selct{
@@ -142,14 +142,14 @@ selct{
 }
 
 input , select{
-    min-height: 30px;
-    max-width: 220px;
-    outline: none;
     border: 0;
     background: transparent;
+    color: #383737;
+    outline: none;
+    min-height: 30px;
+    max-width: 220px;
     font-family: "loja";
     font-size: 1.5em;
-    color: #383737;
     
 }
 
@@ -201,12 +201,12 @@ label{
 
 .form-check, .form-check-delivery{
     display: flex;
+    padding: 0;
     align-items: center;
     align-content: center;
     justify-content: center;
     flex-direction: row;
     margin-left: 5px;
-    padding: 0;
 }
 
 .totalmoney {
@@ -226,15 +226,15 @@ label{
 }
 
 .bt-pedido{
-    min-width: 100%;
     border: 0;
+    color: white;
+    min-width: 100%;
     background-color: var(--marrom);
     margin-left: 10px;
     margin-right: 10px;
     min-height: 50px;
     margin-top: 0px;
     margin-bottom: 60px;
-    color: white;
 }
 
 @media screen and (max-width:500px) {

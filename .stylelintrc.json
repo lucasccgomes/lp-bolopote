@@ -1,0 +1,41 @@
+{
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "order/properties-order": [
+      [
+        "display",
+        "position",
+        "top",
+        "right",
+        "bottom",
+        "left",
+        "z-index",
+        "float",
+        "clear",
+        "width",
+        "height",
+        "margin",
+        "padding",
+        "border",
+        "border-radius",
+        "background",
+        "color",
+        "font",
+        "text-align",
+        "line-height",
+        "text-transform",
+        "text-decoration",
+        "vertical-align",
+        "overflow",
+        "opacity",
+        "transition",
+        "animation",
+        "cursor",
+        "outline",
+        "user-select",
+        "pointer-events"
+      ],
+      { "unspecified": "bottom" }
+    ]
+  }
+}

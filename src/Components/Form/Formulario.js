@@ -9,10 +9,16 @@ function validateForm(form) {
         || !form.typecake
         || !form.size
         || !form.pay
-        || !form.ctFidelidade) {
+        || !form.ctFidelidade 
+        ||   (parseInt(form.brigadeiroAmount) === 0 && 
+        parseInt(form.abacaxiAmount) === 0 && 
+        parseInt(form.morangoAmount) === 0 && 
+        parseInt(form.ninhoAmount) === 0 && 
+        parseInt(form.prestigioAmount) === 0)) {
+        alert("Escolha pelo menos um sabor.")
         return false
     }
-
+    
     return true
 }
 

@@ -5,6 +5,20 @@
   src: url("./assets/fonts/loja/Loja.ttf");
 }
 
+@font-face {
+  font-family: "PoppinsB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins/Poppins-Black.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsL";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Poppins/Poppins-Light.ttf");
+}
+
 
 @font-face {
   font-family: "Klasik regular";
@@ -88,12 +102,8 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #d15d93;
   margin-right: 8px;
+  font-size: 0.8em;
 }
-/* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
-} */
 
 .primary-btn:hover {
   border: 2px solid #e059ad;

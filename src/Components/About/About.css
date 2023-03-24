@@ -28,7 +28,7 @@
     border-style: solid;
     border-bottom: 10px;
     border-color: var(--rosalogo);
-    font-family: "Klasik regular";
+    font-family: "PoppinsB";
 }
 
 
@@ -105,7 +105,7 @@
     color: var(--marromsec);
     font-size: 1.3rem;
     font-weight: 800;
-    font-family: "loja";
+    font-family: "PoppinsB";
 }
 
 .about-card small {

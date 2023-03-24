@@ -23,7 +23,7 @@
 
 .company-parent{
     display: flex;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     align-items: center;
 
 }
@@ -102,7 +102,7 @@
 
 .colz .colz-icon i{
     padding: 18px;
-    color: white;
+    color: rgb(221, 67, 126);
     padding-left: 0px;
     font-size: 2rem;
 

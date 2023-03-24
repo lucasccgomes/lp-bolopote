@@ -24,7 +24,7 @@
     color: var(--marrom);
     text-align: center;
     margin-bottom: 10px;
-    font-family: "Klasik regular";
+    font-family: "PoppinsB";
 }
 
 .form-pt-1 {
@@ -122,7 +122,7 @@ min-width: 50%;
     display: flex;
     align-items: center;
     margin-right: 5px;
-    font-family: "Klasik regular";
+    font-family: "PoppinsL";
 }
 
 
@@ -148,8 +148,8 @@ input , select{
     outline: none;
     min-height: 30px;
     max-width: 220px;
-    font-family: "loja";
-    font-size: 1.5em;
+    font-family: "PoppinsL";
+    font-size: 1em;
     
 }
 

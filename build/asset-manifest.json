@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.68881d83.css",
-    "main.js": "./static/js/main.deaabbf1.js",
+    "main.css": "./static/css/main.97965622.css",
+    "main.js": "./static/js/main.a803a968.js",
     "static/js/787.e38c8483.chunk.js": "./static/js/787.e38c8483.chunk.js",
     "static/media/logo_cartoon_art_illustration.jpg": "./static/media/logo_cartoon_art_illustration.7668f04e08ba9b555410.jpg",
     "static/media/Klasik Rough.otf": "./static/media/Klasik Rough.330c822d47d4f7020e60.otf",
     "static/media/mocinha.png": "./static/media/mocinha.d02eeba7b19b609b084b.png",
+    "static/media/Poppins-Light.ttf": "./static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Poppins-Black.ttf": "./static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/logo-s-fundo-r.png": "./static/media/logo-s-fundo-r.064faf158c73a9a4160c.png",
     "static/media/Suave.ttf": "./static/media/Suave.01811e05621ee05d0d5b.ttf",
     "static/media/brigadeiro2.png": "./static/media/brigadeiro2.6abc68413dcf2ebdddc0.png",
@@ -22,12 +24,12 @@
     "static/media/Klasik Shadow.otf": "./static/media/Klasik Shadow.c43367ea182503cf76ae.otf",
     "static/media/Klasik Regular.otf": "./static/media/Klasik Regular.d469c0cca4cabf12051e.otf",
     "index.html": "./index.html",
-    "main.68881d83.css.map": "./static/css/main.68881d83.css.map",
-    "main.deaabbf1.js.map": "./static/js/main.deaabbf1.js.map",
+    "main.97965622.css.map": "./static/css/main.97965622.css.map",
+    "main.a803a968.js.map": "./static/js/main.a803a968.js.map",
     "787.e38c8483.chunk.js.map": "./static/js/787.e38c8483.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68881d83.css",
-    "static/js/main.deaabbf1.js"
+    "static/css/main.97965622.css",
+    "static/js/main.a803a968.js"
   ]
 }

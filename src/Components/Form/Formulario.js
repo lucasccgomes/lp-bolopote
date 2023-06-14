@@ -6,8 +6,6 @@ function validateForm(form) {
     if (!form.name
         || !form.mobilenumber
         || !form.district
-        || !form.typecake
-        || !form.size
         || !form.pay
         || !form.ctFidelidade 
         ||   (parseInt(form.brigadeiroAmount) === 0 && 
@@ -29,8 +27,6 @@ function getForm() {
         mobilenumber: document.getElementById("mobilenumber").value,
         district: document.getElementById("district").value,
         observacao: document.getElementById("observacao").value,
-        typecake: document.getElementById("typecake").value,
-        size: document.getElementById("size").value,
         pay: document.getElementById("pay").value,
         adress: document.getElementById("adress").value,
         adressnumber: document.getElementById("adressnumber").value,
@@ -95,9 +91,7 @@ function sendWhatsApp(form, showDeliveryFields) {
 *Nome:* ${form.name}
 *Telefone:* ${form.mobilenumber}
 *Bairro:* ${form.district}
-*Pagamento:* ${form.pay}
-*Tipo do Bolo:* ${form.typecake}
-*Tamanho:* ${form.size}`
+*Pagamento:* ${form.pay}`
     if (showDeliveryFields) { whatsappMessage += 
 `*Rua:* ${form.adress} - *N:* ${form.adressnumber}`
     }
@@ -232,18 +226,6 @@ function Formulario() {
                             <option value="Pix">Pix</option>
                             <option value="Dinheiro">Dinheiro</option>
                             <option value="Cartao">Cartão</option>
-                        </select>
-                    </div>
-                    <div className='selectContainer'>
-                        <select type="text" id="typecake" placeholder="Tipo do Bolo" >
-                            <option value="" disabled >Tipo do Bolo</option>
-                            <option value="Bolo no Pote" selected >Bolo no Pote</option>
-                        </select>
-                    </div>
-                    <div className='selectContainer'>
-                        <select type="text" id="size" placeholder="Tamanho" >
-                            <option value="" disabled> Tamanho</option>
-                            <option value="Tradicional 250ml" selected>Tradicional 250ml</option>
                         </select>
                     </div>
                 </div>
